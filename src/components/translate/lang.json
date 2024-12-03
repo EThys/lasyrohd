@@ -1,0 +1,56 @@
+{
+    "whyChooseUs": {
+      "en": "Why Choose Us",
+      "fr": "Pourquoi Nous Choisir"
+    },
+    "companyDescription": {
+      "en": "Lasyrohd is your trusted partner for open and highly available distributed systems analysis.",
+      "fr": "Lasyrohd est votre partenaire de confiance pour l'analyse de systèmes distribués ouverts et hautement disponibles."
+    },
+    "reasons": [
+      {
+        "title": {
+          "en": "Unmatched Expertise",
+          "fr": "Expertise Inégalée"
+        },
+        "description": {
+          "en": "Our team of seasoned experts brings years of experience in analyzing complex distributed systems, with a deep understanding of open and highly available architectures.",
+          "fr": "Notre équipe d'experts chevronnés apporte des années d'expérience dans l'analyse de systèmes distribués complexes, avec une compréhension approfondie des architectures ouvertes et hautement disponibles."
+        }
+      },
+      {
+        "title": {
+          "en": "Innovative Approach",
+          "fr": "Approche Innovante"
+        },
+        "description": {
+          "en": "We employ cutting-edge analysis techniques and continuously develop new methodologies to provide valuable insights into your systems.",
+          "fr": "Nous utilisons des techniques d'analyse de pointe et développons continuellement de nouvelles méthodologies pour fournir des informations précieuses sur vos systèmes."
+        }
+      },
+      {
+        "title": {
+          "en": "Tailored Solutions",
+          "fr": "Solutions Sur Mesure"
+        },
+        "description": {
+          "en": "We offer customized solutions adapted to your specific distributed infrastructure needs, aiming to optimize performance and reliability.",
+          "fr": "Nous proposons des solutions personnalisées adaptées aux besoins spécifiques de votre infrastructure distribuée, visant à optimiser les performances et la fiabilité."
+        }
+      },
+      {
+        "title": {
+          "en": "Ongoing Support",
+          "fr": "Support Continu"
+        },
+        "description": {
+          "en": "Our partnership extends beyond report delivery, offering continuous assistance in implementing recommendations and monitoring system improvements.",
+          "fr": "Notre partenariat s'étend au-delà de la livraison du rapport, offrant une assistance continue dans la mise en œuvre des recommandations et le suivi des améliorations du système."
+        }
+      }
+    ],
+    "ctaButton": {
+      "en": "SEE HOW WE WORK",
+      "fr": "VOIR COMMENT NOUS TRAVAILLONS"
+    }
+  }

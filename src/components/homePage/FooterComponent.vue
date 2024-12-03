@@ -1,0 +1,202 @@
+<script setup lang="ts">
+</script>
+<template>
+   <!-- ===== Footer Start ===== -->
+   <footer>
+  <div class="bb ze ki xn 2xl:ud-px-0">
+    <!-- Footer Top -->
+    <div class="ji gp">
+      <div class="tc uf ap gg fp">
+        <div class="animate_top zd/2 to/4">
+          <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
+                <span class="mr-2 text-4xl text-blue-500">
+                     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.925 16.875Q5.2 16.225 4.1 14.713Q3 13.2 3 11.25q0-1.975.938-3.513Q4.875 6.2 6 5.15q1.125-1.05 2.062-1.6L9 3v2.475q0 .625.45 1.062q.45.438 1.075.438q.35 0 .65-.15q.3-.15.5-.425L12 6q.95.55 1.625 1.35t1.025 1.8l-1.675 1.675q-.05-.6-.287-1.175q-.238-.575-.638-1.05q-.35.2-.738.287q-.387.088-.787.088q-1.1 0-1.987-.612Q7.65 7.75 7.25 6.725q-.95.925-1.6 2.062Q5 9.925 5 11.25q0 .775.275 1.462q.275.688.75 1.213q.05-.5.287-.938q.238-.437.588-.787L9 10.1l2.15 2.1q.05.05.1.125t.1.125l-1.425 1.425q-.05-.075-.087-.125q-.038-.05-.088-.1L9 12.925l-.7.7q-.125.125-.212.287q-.088.163-.088.363q0 .3.175.537q.175.238.45.363ZM9 10.1Zm0 0ZM7.4 22L6 20.6L19.6 7L21 8.4L17.4 12H21v2h-5.6l-.5.5l1.5 1.5H21v2h-2.6l2.1 2.1l-1.4 1.4l-2.1-2.1V22h-2v-4.6l-1.5-1.5l-.5.5V22h-2v-3.6Z" /></svg>
+                </span>
+                LASYROHD
+            </a>
+
+          <p class="lc fb">Lasyrohd is a laboratory for the analysis of open and highly available distributed systems.</p>
+
+          <ul class="tc wf cg">
+            <li>
+              <a href="#">
+                <svg class="vh ul cl il" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_48_1499)">
+                    <path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z" fill="" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_48_1499">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="vh ul cl il" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_48_1502)">
+                    <path
+                      d="M22.162 5.65593C21.3985 5.99362 20.589 6.2154 19.76 6.31393C20.6337 5.79136 21.2877 4.96894 21.6 3.99993C20.78 4.48793 19.881 4.82993 18.944 5.01493C18.3146 4.34151 17.4803 3.89489 16.5709 3.74451C15.6615 3.59413 14.7279 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0771 6.14972C11.6978 6.98983 11.6067 7.93171 11.818 8.82893C10.1551 8.74558 8.52832 8.31345 7.04328 7.56059C5.55823 6.80773 4.24812 5.75098 3.19799 4.45893C2.82628 5.09738 2.63095 5.82315 2.63199 6.56193C2.63199 8.01193 3.36999 9.29293 4.49199 10.0429C3.828 10.022 3.17862 9.84271 2.59799 9.51993V9.57193C2.59819 10.5376 2.93236 11.4735 3.54384 12.221C4.15532 12.9684 5.00647 13.4814 5.95299 13.6729C5.33661 13.84 4.6903 13.8646 4.06299 13.7449C4.32986 14.5762 4.85 15.3031 5.55058 15.824C6.25117 16.345 7.09712 16.6337 7.96999 16.6499C7.10247 17.3313 6.10917 17.8349 5.04687 18.1321C3.98458 18.4293 2.87412 18.5142 1.77899 18.3819C3.69069 19.6114 5.91609 20.2641 8.18899 20.2619C15.882 20.2619 20.089 13.8889 20.089 8.36193C20.089 8.18193 20.084 7.99993 20.076 7.82193C20.8949 7.2301 21.6016 6.49695 22.163 5.65693L22.162 5.65593Z"
+                      fill=""
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_48_1502">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="vh ul cl il" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_48_1505)">
+                    <path
+                      d="M6.94 5.00002C6.93974 5.53046 6.72877 6.03906 6.35351 6.41394C5.97825 6.78883 5.46944 6.99929 4.939 6.99902C4.40857 6.99876 3.89997 6.78779 3.52508 6.41253C3.1502 6.03727 2.93974 5.52846 2.94 4.99802C2.94027 4.46759 3.15124 3.95899 3.5265 3.5841C3.90176 3.20922 4.41057 2.99876 4.941 2.99902C5.47144 2.99929 5.98004 3.21026 6.35492 3.58552C6.72981 3.96078 6.94027 4.46959 6.94 5.00002ZM7 8.48002H3V21H7V8.48002ZM13.32 8.48002H9.34V21H13.28V14.43C13.28 10.77 18.05 10.43 18.05 14.43V21H22V13.07C22 6.90002 14.94 7.13002 13.28 10.16L13.32 8.48002Z"
+                      fill=""
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_48_1505">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <div class="vd ro tc sf rn un gg vn">
+          <div class="animate_top">
+            <h4 class="kk wm tj ec">Quick Links</h4>
+
+            <ul>
+              <li><a href="#" class="sc xl vb">Home</a></li>
+              <li><a href="#" class="sc xl vb">About us</a></li>
+              <li><a href="#" class="sc xl vb">Team</a></li>
+              <li><a href="#" class="sc xl vb">Projects</a></li>
+              <li><a href="#" class="sc xl vb">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="animate_top">
+            <h4 class="kk wm tj ec">Support</h4>
+
+            <ul>
+              <li><a href="#" class="sc xl vb">Company</a></li>
+              <li><a href="#" class="sc xl vb">Press media</a></li>
+              <li><a href="#" class="sc xl vb">Our Blog</a></li>
+              <li><a href="#" class="sc xl vb">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="animate_top">
+            <h4 class="kk wm tj ec">Newsletter</h4>
+            <p class="ac qe">Subscribe to receive future updates</p>
+
+            <form action="" method="POST">
+              <div class="i">
+                <input
+                  type="text"
+                  placeholder="Email address"
+                  class="vd sm _g ch pm vk xm rg gm dm dn gi mi"
+                />
+
+                <button class="h q fi">
+                  <svg class="th vm ul" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_48_1487)">
+                      <path
+                        d="M3.1175 1.17318L18.5025 9.63484C18.5678 9.67081 18.6223 9.72365 18.6602 9.78786C18.6982 9.85206 18.7182 9.92527 18.7182 9.99984C18.7182 10.0744 18.6982 10.1476 18.6602 10.2118C18.6223 10.276 18.5678 10.3289 18.5025 10.3648L3.1175 18.8265C3.05406 18.8614 2.98262 18.8792 2.91023 18.8781C2.83783 18.8769 2.76698 18.857 2.70465 18.8201C2.64232 18.7833 2.59066 18.7308 2.55478 18.6679C2.51889 18.6051 2.50001 18.5339 2.5 18.4615V1.53818C2.50001 1.46577 2.51889 1.39462 2.55478 1.33174C2.59066 1.26885 2.64232 1.2164 2.70465 1.17956C2.76698 1.14272 2.83783 1.12275 2.91023 1.12163C2.98262 1.12051 3.05406 1.13828 3.1175 1.17318ZM4.16667 10.8332V16.3473L15.7083 9.99984L4.16667 3.65234V9.16651H8.33333V10.8332H4.16667Z"
+                        fill=""
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_48_1487">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Top -->
+
+    <!-- Footer Bottom -->
+    <div class="bh ch pm tc uf sf yo wf xf ap cg fp bj">
+      <div class="animate_top">
+        <ul class="tc wf gg">
+          <li><a href="#" class="xl">English</a></li>
+          <li><a href="#" class="xl">Privacy Policy</a></li>
+          <li><a href="#" class="xl">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="animate_top">
+        <p>&copy; 2025 Lasyrohd. All rights reserved</p>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+  </div>
+</footer>
+
+    <!-- ===== Footer End ===== -->
+  <!-- <footer class="bg-blue-500">
+  <div class="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 px-4 py-10 md:grid-cols-2 xl:grid-cols-4 xl:px-10">
+    <div class="max-w-sm">
+      <div class="mb-6 flex h-12 items-center space-x-2">
+        <span class="text-2xl text-white font-bold">LASYROHD</span>
+      </div>
+      <div class="text-white">Lasyrohd is a laboratory for the analysis of open and highly available distributed systems.</div>
+    </div>
+    <div class="">
+      <div class="mt-4 text-white  mb-2 font-medium xl:mb-4">Address</div>
+      <div class="text-white">
+        Kinshasa, <br />
+        Gombe, <br />
+        45 Street, <br />
+        Democratic Republic of Congo
+      </div>
+    </div>
+    <div class="">
+      <div class="mt-4 mb-2 text-white  font-medium xl:mb-4">Links</div>
+      <nav aria-label="Footer Navigation" class="text-white">
+        <ul class="space-y-3">
+          <li><a class="hover:text-blue-600 hover:underline" href="#">Home</a></li>
+          <li><a class="hover:text-blue-600 hover:underline" href="#">About</a></li>
+          <li><a class="hover:text-blue-600 hover:underline" href="#">Team</a></li>
+          <li><a class="hover:text-blue-600 hover:underline" href="#">Project</a></li>
+          <li><a class="hover:text-blue-600 hover:underline" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="">
+      <div class="mt-4 mb-2 text-white font-medium xl:mb-4">Subscribe to our Newsletter</div>
+      <div class="flex flex-col">
+        <div class="mb-4">
+          <input type="email" class="focus:outline mb-2 block h-14 w-full rounded-xl bg-gray-200 px-4 sm:w-80 focus:outline-none focus:ring-1 focus:ring-orange-400" placeholder="Enter your email" />
+          <button class="block rounded-xl bg-gray-900 px-6 py-3 font-medium text-white">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-800">
+    <div class="mx-auto text-white flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center text-whites sm:flex-row sm:justify-between sm:text-left">
+      <div class="">© 2024 Lasyrohd | All Rights Reserved</div>
+      <div class="">
+        <a class="" href="#">Privacy Policy</a>
+        <span>|</span>
+        <a class="" href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+</template>
