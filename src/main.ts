@@ -3,6 +3,7 @@ import './styles.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import 'swiper/swiper-bundle.css';
 
 import App from './App.vue'
