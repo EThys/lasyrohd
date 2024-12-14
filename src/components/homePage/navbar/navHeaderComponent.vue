@@ -3,12 +3,22 @@
 import { ref,onUnmounted, onMounted} from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { useRouter } from 'vue-router'
+//@ts-ignore
+import AOS from 'aos';
 
 const router = useRouter()
 const mobileMenuOpen = ref(false);
 const projectsDropdownOpen = ref(false);
 const laboratoryDropdownOpen = ref(false);
 const isScrolled = ref(false);
+
+
+
+onMounted(() => {
+    AOS.init({
+    duration: 5000
+  });
+})
 
 const toggleMobileMenu = () => {
     mobileMenuOpen.value = !mobileMenuOpen.value;
@@ -51,7 +61,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <header class="bg-white fixed top-0 left-0 w-full z-50 transition-shadow duration-300" :class="{ 'shadow-md': isScrolled }" 
+  <header data-aos="fade-left" class="bg-white fixed top-0 left-0 w-full z-50 transition-shadow duration-300" :class="{ 'shadow-md': isScrolled }" 
   >
     <nav class="mx-auto flex max-w-7xl items-center justify-between lg:px-8" aria-label="Global">
     
@@ -75,8 +85,9 @@ onUnmounted(() => {
 
       <!-- Menu desktop -->
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Accueil</a>
-        <!-- Dropdown Projects -->
+        <router-link class="text-sm/6 font-semibold text-gray-900" to="/accueil">
+          Accueil
+        </router-link>
         <div class="relative">
           <button @click="toggleProjectsDropdown" type="button" class="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
             Recherche

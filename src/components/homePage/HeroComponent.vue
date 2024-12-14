@@ -1,10 +1,18 @@
 <!-- eslint-disable @typescript-eslint/ban-ts-comment -->
 <script setup lang="ts">
 import { onMounted,ref } from "vue";
-import { Swiper, SwiperSlide } from 'swiper/vue';
+
 //@ts-ignore
 import NavBar from '@/components/homePage/navbar/navHeaderComponent.vue'
 import 'swiper/swiper-bundle.css';
+//@ts-ignore
+import AOS from 'aos';
+
+onMounted(() => {
+    AOS.init({
+    duration: 1000
+  });
+})
 
 
 const imageList=[
@@ -22,7 +30,7 @@ const changeImage = () => {
 };
 
 onMounted(() => {
-  setInterval(changeImage, 3000);
+  
  
   const animatedElements = document.querySelectorAll('.fade-in-up');
   animatedElements.forEach((el, index) => {
@@ -37,8 +45,8 @@ onMounted(() => {
    <div class="">
   
   <NavBar/>
-  <div class="mx-auto fade-in-up h-full px-4 mt-28 mb-12 md:mt-16 py-20 md:py-36 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
-    <div   class="flex flex-col items-center justify-between lg:flex-row">
+  <div data-aos="fade-up" class="mx-auto  h-full px-4 mt-28 mb-12 md:mt-16 py-20 md:py-36 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
+    <div class="flex flex-col items-center justify-between lg:flex-row">
       <div class=" ">
         <div class="lg:max-w-xl lg:pr-5">
           <p class="flex text-sm uppercase text-black">
@@ -86,7 +94,7 @@ onMounted(() => {
   </div>
 </div>
 <!-- ===== CTA Start ===== -->
-<section class="i pg ji bg-purple-800">
+<section  data-aos="zoom-in" class="i pg ji bg-purple-800">
   <!-- Bg Shape -->
   <img class="h p q" src="../../assets/shape-16.svg" alt="Bg Shape" />
 

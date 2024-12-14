@@ -1,9 +1,18 @@
 <script setup lang="ts">
+//@ts-ignore
+import AOS from 'aos';
+import { onMounted } from 'vue';
+
+onMounted(() => {
+    AOS.init({
+    duration: 5000
+  });
+})
 </script>
 <template>
    <!-- ===== Footer Start ===== -->
    <footer>
-  <div class="bb ze ki xn 2xl:ud-px-0">
+  <div data-aos="fade-up" class="bb ze ki xn 2xl:ud-px-0">
     <!-- Footer Top -->
     <div class="ji gp">
       <div class="tc uf ap gg fp">

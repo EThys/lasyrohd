@@ -4,10 +4,20 @@
 import NavBar from '@/components/homePage/navbar/navHeaderComponent.vue'
 //@ts-ignore
 import Footer from '@/components/homePage/FooterComponent.vue'
+import { onMounted } from 'vue';
+import 'aos/dist/aos.css'
+//@ts-ignore
+import AOS from 'aos';
+
+onMounted(() => {
+    AOS.init({
+    duration: 1000
+  });
+})
 </script>
 <template>
   <NavBar/>
-  <section class="i pg ji bg-purple-800 mt-20">
+  <section data-aos="fade-zoom-in" class="i pg ji bg-purple-800 mt-20">
   <!-- Bg Shape -->
   <img class="h p q" src="../../assets/shape-16.svg" alt="Bg Shape" />
 
@@ -23,7 +33,7 @@ import Footer from '@/components/homePage/FooterComponent.vue'
   </div>
 </section>
     <div class="bg-white ">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div data-aos="fade-up" class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2 class="text-pretty py-6 text-4xl font-semibold tracking-tight text-black sm:text-5xl"></h2>
         <p class="max-w-lg text-xl text-black sm:text-4xl font-semibold">Professeurs</p>
@@ -43,7 +53,7 @@ import Footer from '@/components/homePage/FooterComponent.vue'
         </li>
       </ul>
     </div>
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div data-aos="fade-up" class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2 class="text-pretty py-6 text-4xl font-semibold tracking-tight text-black sm:text-5xl"></h2>
         <p class="max-w-lg text-xl text-black sm:text-4xl font-semibold">Personnel</p>
@@ -63,7 +73,7 @@ import Footer from '@/components/homePage/FooterComponent.vue'
         </li>
       </ul>
     </div>
-    <div class="mx-auto max-w-7xl mb-8 px-6 lg:px-8">
+    <div data-aos="fade-up" class="mx-auto max-w-7xl mb-8 px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2 class="text-pretty py-6 text-4xl font-semibold tracking-tight text-black sm:text-5xl"></h2>
         <p class="max-w-lg text-xl text-black sm:text-4xl font-semibold">Anciens Etudiants</p>
@@ -84,7 +94,7 @@ import Footer from '@/components/homePage/FooterComponent.vue'
       </ul>
     </div>
   </div>
-  <section class="i pg ji bg-purple-800">
+  <section data-aos="zoom-in" class="i pg ji bg-purple-800">
   <!-- Bg Shape -->
   <img class="h p q" src="../../assets/shape-16.svg" alt="Bg Shape" />
 

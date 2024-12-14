@@ -1,5 +1,14 @@
 <script setup>
 import { parseJsonSourceFileConfigFileContent } from 'typescript';
+import { onMounted } from 'vue';
+//@ts-ignore
+import AOS from 'aos';
+
+onMounted(() => {
+    AOS.init({
+    duration: 1000
+  });
+})
 
 </script>
 <template>
@@ -8,7 +17,7 @@ import { parseJsonSourceFileConfigFileContent } from 'typescript';
   <!-- Container -->
   <div class="mx-auto w-full max-w-7xl px-5 py-16  ">
     <!-- Title -->
-    <div class="grid gap-10 lg:grid-cols-2 lg:gap-12">
+    <div data-aos="flip-left" class="grid gap-10 lg:grid-cols-2 lg:gap-12">
       <div class="flex flex-col gap-5 rounded-lg border p-10 sm:p-5">
         <h2 class="text-3xl font-bold md:text-2xl text-black">Présentation</h2>
         <p>
