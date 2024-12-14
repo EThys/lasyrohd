@@ -1,117 +1,103 @@
 <script setup lang="ts">
 </script>
 <template>
-    <div class="bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">From the blog</h2>
-        <p class="mt-2 text-lg/8 text-gray-600">Learn how to grow your business with our expert advice.</p>
-      </div>
-      <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-        <article class="flex flex-col items-start justify-between">
-          <div class="relative w-full">
-            <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80" alt="" class="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
-            <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+    <section class="bg-white py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-xl px-4 md:px-8"> 
+    <!-- Heading -->
+    <div class="mb-10 md:mb-16">
+      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Most Recent Posts</h2>
+
+      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+    </div>
+    <!-- /Heading -->
+    <div class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16">
+      <!-- Article -->
+      <article class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
+        <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+          <img src="https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col gap-2">
+          <span class="text-sm text-gray-400">April 2, 2022</span>
+
+          <h2 class="text-xl font-bold text-gray-800">
+            <a href="#" class="transition duration-100 hover:text-rose-500 active:text-rose-600">The Pines and the Mountains</a>
+          </h2>
+
+          <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+
+          <div>
+            <a href="#" class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
           </div>
-          <div class="max-w-xl">
-            <div class="mt-8 flex items-center gap-x-4 text-xs">
-              <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
-              <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
-            </div>
-            <div class="group relative">
-              <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-                <a href="#">
-                  <span class="absolute inset-0"></span>
-                  Boost your conversion rate
-                </a>
-              </h3>
-              <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
-            </div>
-            <div class="relative mt-8 flex items-center gap-x-4">
-              <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-100">
-              <div class="text-sm/6">
-                <p class="font-semibold text-gray-900">
-                  <a href="#">
-                    <span class="absolute inset-0"></span>
-                    Michael Foster
-                  </a>
-                </p>
-                <p class="text-gray-600">Co-Founder / CTO</p>
-              </div>
-            </div>
+        </div>
+      </article>
+      <!-- /Article -->
+      <!-- Article -->
+      <article class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
+        <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+          <img src="https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col gap-2">
+          <span class="text-sm text-gray-400">April 2, 2022</span>
+
+          <h2 class="text-xl font-bold text-gray-800">
+            <a href="#" class="transition duration-100 hover:text-rose-500 active:text-rose-600">The Coding Mania</a>
+          </h2>
+
+          <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+
+          <div>
+            <a href="#" class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
           </div>
-        </article>
-        <article class="flex flex-col items-start justify-between">
-          <div class="relative w-full">
-            <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80" alt="" class="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
-            <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+        </div>
+      </article>
+      <!-- /Article -->
+      <!-- Article -->
+      <article class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
+        <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+          <img src="https://images.unsplash.com/photo-1496395031280-4201b0e022ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col gap-2">
+          <span class="text-sm text-gray-400">April 2, 2022</span>
+
+          <h2 class="text-xl font-bold text-gray-800">
+            <a href="#" class="transition duration-100 hover:text-rose-500 active:text-rose-600">Architectural Warfare</a>
+          </h2>
+
+          <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+
+          <div>
+            <a href="#" class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
           </div>
-          <div class="max-w-xl">
-            <div class="mt-8 flex items-center gap-x-4 text-xs">
-              <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
-              <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
-            </div>
-            <div class="group relative">
-              <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-                <a href="#">
-                  <span class="absolute inset-0"></span>
-                  Boost your conversion rate
-                </a>
-              </h3>
-              <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
-            </div>
-            <div class="relative mt-8 flex items-center gap-x-4">
-              <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-100">
-              <div class="text-sm/6">
-                <p class="font-semibold text-gray-900">
-                  <a href="#">
-                    <span class="absolute inset-0"></span>
-                    Michael Foster
-                  </a>
-                </p>
-                <p class="text-gray-600">Co-Founder / CTO</p>
-              </div>
-            </div>
+        </div>
+      </article>
+      <!-- /Article -->
+      <!-- Article -->
+      <article class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
+        <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+          <img src="https://images.unsplash.com/photo-1510081887155-56fe96846e71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col gap-2">
+          <span class="text-sm text-gray-400">April 2, 2022</span>
+
+          <h2 class="text-xl font-bold text-gray-800">
+            <a href="#" class="transition duration-100 hover:text-rose-500 active:text-rose-600">Blues in Architechture</a>
+          </h2>
+
+          <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+
+          <div>
+            <a href="#" class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
           </div>
-        </article>
-        <article class="flex flex-col items-start justify-between">
-          <div class="relative w-full">
-            <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80" alt="" class="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
-            <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-          </div>
-          <div class="max-w-xl">
-            <div class="mt-8 flex items-center gap-x-4 text-xs">
-              <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
-              <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
-            </div>
-            <div class="group relative">
-              <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-                <a href="#">
-                  <span class="absolute inset-0"></span>
-                  Boost your conversion rate
-                </a>
-              </h3>
-              <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
-            </div>
-            <div class="relative mt-8 flex items-center gap-x-4">
-              <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-100">
-              <div class="text-sm/6">
-                <p class="font-semibold text-gray-900">
-                  <a href="#">
-                    <span class="absolute inset-0"></span>
-                    Michael Foster
-                  </a>
-                </p>
-                <p class="text-gray-600">Co-Founder / CTO</p>
-              </div>
-            </div>
-          </div>
-        </article>
-  
-        <!-- More posts... -->
-      </div>
-      
+        </div>
+      </article>
+      <!-- /Article -->
     </div>
   </div>
+</section>
+
 </template>
 <style scoped></style>
