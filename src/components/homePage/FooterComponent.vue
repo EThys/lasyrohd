@@ -10,7 +10,7 @@
         <div class="animate_top zd/2 to/4">
           <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
             <span class="mr-2 text-4xl text-blue-500">
-                  <img src="../../assets/LASYRHOD F-B.png" alt="" class="w-36 h-auto">
+                  <img src="../../assets/lasyrohd.png" alt="" class="w-36 h-auto">
               </span>
             </a>
 
