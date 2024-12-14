@@ -13,6 +13,11 @@ const router = createRouter({
       component: HomePageView,
     },
     {
+      path: '/accueil', 
+      name: 'home-alt', 
+      component: HomePageView,
+    },
+    {
       path: '/team',
       name: 'team',
       component: TeamComponent,
